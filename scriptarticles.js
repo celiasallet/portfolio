@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const container = document.getElementById("carousel");
 
-    const articles = ['article1.yml', 'article2.yml', 'article3.yml', 'article4.yml', 'article5.yml', 'article6.yml', 'article7.yml', 'article8.yml', 'article9.yml', 'article10.yml', 'article11.yml', 'article12.yml'];
+    const articles = ['article1.yml', 'article2.yml', 'article3.yml', 'article4.yml', 'article6.yml', 'article7.yml', 'article8.yml', 'article9.yml', 'article10.yml', 'article11.yml', 'article12.yml'];
 // classer par dates dans le fichier par année
     function loadYAMLFile(yamlFile) {
         return fetch(`./assets/${yamlFile}`)
